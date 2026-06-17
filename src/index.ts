@@ -5,3 +5,7 @@ export { createTypedStorage } from "./storage/typedStorage";
 export { createLogger } from "./logger/logger";
 export { debounce, throttle } from "./debounce/debounce";
 export { isEmail, isInRange } from "./validation/validators";
+export { fetchVaultSecrets } from "./vault/vaultClient";
+export type { VaultAppRoleConfig } from "./vault/vaultClient";
+export { hydrateEnvFromVault } from "./vault/hydrateEnv";
+export type { HydrateEnvOptions } from "./vault/hydrateEnv";
