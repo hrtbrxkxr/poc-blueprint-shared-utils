@@ -3,7 +3,6 @@ export type LogLevel = "debug" | "info" | "warn" | "error";
 export function createLogger(scope: string) {
   const log = (level: LogLevel, message: string, meta?: Record<string, unknown>) => {
     const entry = { timestamp: new Date().toISOString(), scope, level, message, ...meta };
-    // eslint-disable-next-line no-console
     console[level === "debug" ? "log" : level](JSON.stringify(entry));
   };
 
