@@ -1,4 +1,4 @@
-# @platform/shared-utils
+# @hrtbrxkxr/shared-utils
 
 Framework-agnostic utility functions shared across shell and modules.
 
