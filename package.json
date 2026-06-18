@@ -1,6 +1,7 @@
 {
   "name": "@platform/shared-utils",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.12.0",
   "description": "Shared, framework-agnostic utility functions for the White Label Platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
